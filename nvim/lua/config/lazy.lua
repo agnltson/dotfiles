@@ -38,6 +38,12 @@ local plugins = {
             ["<C-p>"] = cmp.mapping.select_prev_item(),
             ["<CR>"]  = cmp.mapping.confirm({ select = true }),
             ["<C-Space>"] = cmp.mapping.complete(),
+            ["<S-CR>"] = cmp.mapping(function(fallback)
+              if cmp.visible() then
+                cmp.abort()
+              end
+              fallback()
+            end, { "i", "s" }),
           }),
           sources = {
             {
