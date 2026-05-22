@@ -1,0 +1,6 @@
+vim.schedule(function()
+  pcall(vim.keymap.del, "n", "<Space>aj", { buffer = true })
+  pcall(vim.keymap.del, "n", "<Space>al", { buffer = true })
+  pcall(vim.keymap.del, "i", "<Space>aj", { buffer = true })
+  pcall(vim.keymap.del, "i", "<Space>al", { buffer = true })
+end)
