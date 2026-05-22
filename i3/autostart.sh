@@ -7,3 +7,4 @@ udiskie --tray &
 blueman-applet &
 flameshot &
 setxkbmap -option caps:escape &
+picom &
