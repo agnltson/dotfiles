@@ -1,47 +1,38 @@
 local colors = {
-  -- Backgrounds : progression douce et chaleureuse
   bg_0 = "#1E1412",
   bg_1 = "#2B1A18",
   bg_2 = "#46312F",
   bg_3 = "#4B3A35",
-  
-  -- Foregrounds : contraste optimal, lisibilité maximale
+
   fg_0 = "#D5C8AE",
   fg_1 = "#E0D2B8",
   fg_2 = "#F1E8D5",
   fg_3 = "#FAF4E8",
-  
-  -- Rouge : tons chauds et terreux
+
   red_0     = "#8C2E23",
   red_1     = "#B53F2F",
   red_2     = "#D1533E",
-  
-  -- Vert : naturel et apaisant
+
   green_0   = "#325F45",
   green_1   = "#3F6E52",
   green_2   = "#59A273",
-  
-  -- Jaune : lumineux mais pas agressif
+
   yellow_0  = "#A47A28",
   yellow_1  = "#D29B31",
   yellow_2  = "#E4B94C",
-  
-  -- Bleu : profond et lisible
+
   blue_0    = "#2A496B",
   blue_1    = "#35597C",
   blue_2    = "#4F7FB5",
-  
-  -- Magenta : équilibré entre rouge et violet
+
   magenta_0 = "#6F3240",
   magenta_1 = "#8E3F50",
   magenta_2 = "#944356",
-  
-  -- Cyan : frais et distinct
+
   cyan_0    = "#316C67",
   cyan_1    = "#3F8A84",
   cyan_2    = "#56B0A8",
-  
-  -- Violet : riche et saturé
+
   purple_0  = "#7A3E96",
   purple_1  = "#9A59B6",
   purple_2  = "#B67EC7",
