@@ -97,6 +97,14 @@ o.completeopt = "menu,menuone,noselect,fuzzy"
 local lsp_completion = true
 -- local lsp_completion = false
 
+-- Turn autocomplete off in Telescope.
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "TelescopePrompt",
+  callback = function(ev)
+    vim.bo[ev.buf].autocomplete = false
+  end,
+})
+
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(ev)
     if not lsp_completion then return end
